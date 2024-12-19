@@ -65,7 +65,6 @@ results = {
                  r2_score(y_test, dt.predict(X_test)),
                  r2_score(y_test, rf.predict(X_test))]
 }
-
-results_df = pd.DataFrame(results)
+result_df = pd.DataFrame(results)
 print("\nFinal Results:")
-print(results_df)
+print(result_df)
